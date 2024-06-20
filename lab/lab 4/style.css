@@ -1,0 +1,44 @@
+em {
+    font-variant: small-caps;
+    font-size: 30px;
+    word-spacing: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 0 0 5px red;
+}
+
+body {
+    text-align: center;
+}
+
+.doan-1 {
+    color: chocolate;
+}
+
+.doan-2 {
+    color: gold;
+}
+
+.doan-3 {
+    color: blue;
+}
+.menu>a {
+    margin-right: 20px;
+    font-variant: normal;
+    color: blue;
+    text-decoration: none;
+
+}
+
+.menu>a:visited {
+    color: green;
+}
+
+.menu>a:hover {
+    color: black;
+    text-decoration: none;
+}

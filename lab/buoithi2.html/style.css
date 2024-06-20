@@ -1,0 +1,129 @@
+
+.header{
+width: 100%;
+position: relative;
+height: 170px;
+margin: auto;
+}
+.logo{
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    left: 40px;
+}
+.logo img{
+    width: 3%;
+    float: left;
+}
+.logoto>img{
+    position: absolute;
+    width: 15%;
+    top: 30px;
+    left: 650px;
+}
+.giohang{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.giohang>input{
+    width: 30px;
+    background-color: cadetblue;
+}
+.tim{ 
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    background-color: white;
+}
+.tim input {
+    width: 0%;
+    border: none; /* Bỏ khung viền */
+}
+.tim span {
+    display: inline-block;
+}
+.menu{
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    border-bottom: 1px solid;
+}
+.menu a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+.hoatuoi {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hoatuoi span {
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+}
+.dathang{
+    font-size: larger;
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+}
+.khung{
+    height: 40px;
+    margin: 0 120px;
+    position: relative;
+    border: 1px solid;
+    width: 80%;
+    padding: 20px;
+}
+.macdinh{
+    top: 30px;
+    position: absolute;
+    right: 200px;
+}
+.a24{
+    top: 30px;
+    position: absolute;
+    right: 100px;
+}
+.dongsanpham {
+    margin: 10px 100px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sanpham{
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+    margin: 15px;
+}
+.sanpham>img{
+    margin: 20px;
+    width: 80%;
+    
+}
+.ten{
+    clear: both;
+    font-size: 40px;    
+}
+.gia{
+    font-size: 30px;
+}
+footer{
+    float: left;
+    text-align: center;
+    clear: both;
+    width: 100%;
+    background-color: palevioletred;
+}
+.thongtin{
+    margin-right: 10px;
+    color: white;
+    font-size: x-large;
+}

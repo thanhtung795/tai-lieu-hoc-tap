@@ -1,0 +1,236 @@
+.container {
+
+    margin: 0px 50px 0 50px;
+    position: relative;
+}
+
+
+header .top-right {
+    text-align: center;
+    line-height: 50px;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    background-color: orangered;
+    right: 0px;
+    top: 0px;
+    border-bottom-left-radius: 30px;
+}
+
+header img {
+    width: 1100px;
+}
+
+.top-right a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.top-right a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+ header .info{
+    width: 400px;
+    height: 100px;
+    bottom: 100px;
+    left: 15px;
+    position: absolute;
+    text-shadow: 0 0 5px orange;
+    box-shadow: 0 0  5px orange;
+ }
+ header .info h1{
+    margin: 0px;
+    padding: 0px;
+    font-variant: small-caps;
+    color:white;
+    font-size: 45px;
+    border-bottom: 1px dotted saddlebrown;
+
+ }
+ header .info h3{
+    margin: 0px;
+    padding: 0px;
+    font-variant: small-caps;
+    color:saddlebrown;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+ }
+nav {
+    margin-right: auto;
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+
+}
+
+nav>a:hover {
+    
+    color: aqua;
+    text-decoration: underline;
+}
+article{
+    
+    width: 75%;
+    float: left;
+}
+aside{
+    margin: 15px 0px 20px;
+    width: 30px;
+    float: left;
+    
+    
+}
+.vmenu {
+    width: 266px;
+    height: 478px;
+    text-align: center;
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px gray;
+}
+.vmenu a{
+    background: url(img/bullets_check_tick_red_animation_clipart.gif) no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url(img/bullets_at_symbols_orange_animation_clipart.gif) no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: yellow;
+    color: white;
+    font-weight: bold;
+}
+.col-25 {
+    width: 20%;
+    float: left;
+    margin: 20px;
+}
+.col-25:hover{
+   filter: blur(2px);
+}
+.prod {
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+.col-25:hover{
+    color: black;
+}
+.prod>.name {
+    font-variant: small-caps;
+    color: orangered;
+}
+
+.prod>.image {
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.prod>.price {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-family: Impact;
+    font-size: 25px;
+    color: orange;
+}
+
+.prod>.icon {
+    position: absolute;
+    right: 5px;
+    bottom: 110px;
+    width: 25%;
+    height: 50px;
+    margin: auto;
+}
+
+.prod>.icon img {
+    height: 50px;
+
+}
+
+.prod>.new-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.prod>.new-icon img{
+    width: 40px;
+ }
+ .menu>ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu>ul>li>a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+
+.menu>ul>li>a:hover {
+    color: yellow;
+}
+
+.menu>ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+
+}
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+    margin-left: -60px;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}

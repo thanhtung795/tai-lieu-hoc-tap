@@ -1,0 +1,340 @@
+.container {
+
+    position: relative;
+}
+
+.header {
+    height: 70px;
+    margin: 10px 120px 10px 120px;
+}
+
+.logo {
+    top: 0px;
+    width: 20%;
+    position: absolute;
+
+}
+
+img {
+    width: 100px;
+}
+
+.search {
+    font-size: small;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    width: 45%;
+
+
+    margin: 10px 120px 10px 120px;
+}
+
+.search .input input {
+    width: 100%;
+
+}
+
+
+
+.nutimkiem {
+    position: absolute;
+    top: 30px;
+    right: 420px;
+}
+
+.user {
+    top: 0px;
+    right: 150px;
+    position: absolute;
+    margin: 10px 120px 10px 120px;
+}
+
+.user img {
+    width: 50px;
+}
+
+.giohang {
+    right: 0px;
+    position: absolute;
+    top: 15px;
+    width: 10%;
+
+}
+
+.giohang img {
+    width: 50px;
+
+}
+.menu {
+    height: 40px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    line-height: 40px;
+    color: white;
+    margin-right: 30px;
+    
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 5px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 150px;
+    background-color:blueviolet;
+    box-shadow: 0 0 1px gray;
+    margin-left: -20px;
+ 
+}
+.menu ul ul a{
+    
+    display: block;
+    
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    
+    
+}
+.menu ul ul a:hover{
+    
+    color:white;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    z-index: 999;
+}
+.menu a {
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+   padding:  0 20px;
+   box-sizing: border-box;
+    
+}
+
+.menu a:hover {
+    
+    text-decoration: underline;
+}
+
+.article {
+    height: 600px;
+    position: relative;
+}
+
+.article h1 {
+    text-align: center;
+}
+.box{
+    margin-top: 20px;
+    margin-left: 460px;
+    background-color: antiquewhite;
+    height: 360px;
+    width: 600px;
+}
+.article .dangnhap {
+    font-size: x-large;
+    height: 50px;
+    width: 500px;
+    top: 120px;
+    position: absolute;
+    text-align: center;
+    left: 500px;
+}
+
+.article .matkhau {
+    font-size: x-large;
+    height: 50px;
+    top: 200px;
+    width: 500px;
+    position: absolute;
+    text-align: center;
+    left: 500px;
+}
+
+.article .nutdangnhap {
+    position: absolute;
+    color: white;
+    font-size: x-large;
+    background-color: blueviolet;
+    height: 50px;
+    width: 200px;
+    left: 500px;
+    top: 260px;
+}
+
+.article .nutdangnhap:hover {
+    text-decoration: underline;
+}
+
+.article .quenmatkhau {
+    font-size: x-large;
+    font-weight: bold;
+    position: absolute;
+    top: 240px;
+    left: 840px;
+    color: black;
+}
+
+.article p:visited {
+    color: red;
+}
+
+.article p:hover {
+    text-decoration: underline;
+}
+
+.fb {
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    line-height: 60px;
+    background-color: antiquewhite;
+    float: left;
+    left: 500px;
+    top: 310px;
+}
+
+.fb i {
+    margin-left: 10px;
+    font-size: xx-large;
+}
+
+.gg {
+    position: absolute;
+    height: 60px;
+    width: 50px;
+    line-height: 60px;
+    background-color: antiquewhite;
+    float: left;
+    left: 560px;
+    top: 310px;
+}
+
+.gg i {
+    font-size: xx-large;
+}
+
+.dk {
+    position: absolute;
+    left: 500px;
+    top: 360px;
+}
+.dk a{
+    text-decoration: none;
+    font-size: larger;
+    color:black;
+    font-weight: bold;
+}
+.dk a:hover{
+    text-decoration: underline;
+}
+.footer {
+    top: 100px;
+    position: relative;
+    clear: both;
+    background-color: blueviolet;
+    height: 250px;
+}
+
+.iconhotline img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 80px;
+    left: 615px;
+}
+
+.hotline {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    top: 80px;
+    left: 640px;
+}
+
+.sdt {
+    position: absolute;
+    color: white;
+    top: 110px;
+    left: 610px;
+    font-size: larger;
+}
+
+.ptthanhtoan {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    top: 150px;
+    left: 590px;
+}
+
+.iconthanhtoan img {
+    position: absolute;
+    top: 180px;
+    left: 580px;
+    height: 40px;
+    width: 250px;
+}
+
+.diachi {
+    position: absolute;
+    color: white;
+    right: 140px;
+    top: 60px;
+    font-weight: bold;
+
+}
+
+.ketnoi {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    right: 415px;
+    top: 150px;
+}
+
+.iconmx img {
+    position: absolute;
+    top: 180px;
+    right: 310px;
+    height: 40px;
+    width: 250px;
+}
+
+.chungnhan img {
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    height: 100px;
+    width: 300px;
+    background-color: white;
+}
+
+.backtotop {
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    z-index: 9999;
+}
+
+.backtotop a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    font-size: x-large;
+}
+
+.backtotop a img {
+    height: 100%;
+    width: 100%;
+}

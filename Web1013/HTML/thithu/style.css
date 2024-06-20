@@ -1,0 +1,38 @@
+#head {
+    width: 100%;
+    overflow: auto;
+}
+
+.trangchu {
+    width: 8%;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.dau {
+    width: 5%;
+    background-color: white;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.batdongsan {
+    width: 87%;
+    background-color: white;
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hinh {
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+.chu {
+    width: 100%;
+}

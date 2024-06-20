@@ -1,0 +1,131 @@
+.container{
+    margin: 0 120px;
+}
+
+.header{
+    position: relative;
+    height: 120px;
+    background-color: rgb(226, 43, 122);
+}
+.trogiup{
+    /* margin-right: 10px; */
+    background-color: brown;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.menu{
+    height: 80px;
+    background-color: aliceblue;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    width: 80px;
+}
+.danhmuc{
+    /* margin-right: 30px; */
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.danhmuc a{
+    margin-right: 10px;
+}
+.article{
+    position: relative;
+    background-color: blanchedalmond;
+    height: 1300px;
+}
+.article img{
+    height: 592px;
+}
+.thongtin{
+    position: relative;
+    height: 250px;
+    border: 2px solid;
+}
+.thongtin h2{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.thongtin ul{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.tienich{
+    position: relative;
+}
+.column1{
+    position: absolute;
+    border: 2px solid;
+    width: 200px;
+    
+    
+    top: 40px;
+    left: 40px;
+}
+
+.column2{
+    position: absolute;
+    border: 2px solid;
+    width: 200px;
+    
+    
+    top: 40px;
+    left: 300px;
+}
+
+.column3{
+    position: absolute;
+    border: 2px solid;
+    width: 200px;
+    
+ 
+    top: 40px;
+    right: 40px;
+}
+
+.column4{
+    position: absolute;
+    border: 2px solid;
+    width: 200px;
+    
+    
+    top: 40px;
+    right: 300px;
+}
+/* .tienich .img1{
+    position: absolute;
+    height: 200px;
+   top: 30px;
+   left: 82px;
+}
+.tienich .img2{
+    position: absolute;
+    height: 200px;
+   top: 30px;
+   left: 350px;
+}
+.tienich .img3{
+    position: absolute;
+    height: 200px;
+   top: 30px;
+   right: 78px;
+}
+.tienich .img4{
+    position: absolute;
+    height: 200px;
+   top: 30px;
+   right: 350px;  
+} */
+.hinh img{
+    height: 200px;
+}
+.footer{
+    height: 300px;
+    background-color: aquamarine;
+    
+}

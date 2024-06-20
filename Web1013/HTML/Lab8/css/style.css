@@ -1,0 +1,171 @@
+.menu>ul>li{
+    display:inline-block;
+    position:relative;
+}
+.menu>ul>li>a{
+    display:block;
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px;
+}
+.menu>ul>li>a:hover{
+    color:yellow;}
+   
+
+
+.menu>ul{
+    padding:0px;
+margin:0px;
+list-style:none;
+border-radius:3px;
+background-color:orangered;
+text-align:center;
+}
+.menu ul ul{
+    position:absolute;
+    display:none;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius: 3px;
+width:100px;
+background-color:white;
+ box-shadow:0 0 1 pixel gray;
+}
+.menu ul ul a{
+    display:block;
+    line-height:30px;
+color:orangered;
+ text-decoration:none;
+font-variant:small-caps;
+ font-size:larger;
+ padding:0 10px;
+}
+.menu>ul>li:hover>ul{
+    display:block;
+}
+.menu ul ul a:hover{
+
+background-color:orangered;
+color:white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url(fpt-polytechnic-1597925474001310106893-crop-1597925488297507918807.jpg);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    position: relative;
+    
+}
+.container>nav{
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps; 
+}
+.container>article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container>aside{
+    min-height: 352px;
+    width: 25%;
+    
+    float: right;
+}
+.container>footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color:lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.container>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url(icon\ 1.png) no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    background-color: white;
+}
+.vmenu a:hover{
+    background: url(hover\ 1.png)no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+    .container{
+     Position:relative;}
+     .top-right{
+     Position:absolute;
+     Top:0px;
+     Right:0px;
+    Border-bottom-left-radius: 30px;
+    }
+     .company-info{
+    Bottom:30px;
+     Left:15px;}
+
+     .Tieu-de{
+        position:absolute;
+        bottom: 10px;
+        left: 30px;
+
+     }
+
+     .Tieu-de h1{
+        color: white;
+        font-variant: small-caps;
+        text-shadow: 0 0 5px orangered;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     .Tieu-de p {
+        color: orangered;
+        font-variant: small-caps;
+        border-top: 1px solid orangered;
+     }
+    

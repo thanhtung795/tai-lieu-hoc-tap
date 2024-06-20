@@ -1,0 +1,15 @@
+table{
+    border-collapse: collapse;
+    border-color: greenyellow;
+    text-align: center;
+}
+.title1{
+    background-color: rgb(41, 150, 41);
+    color:#fff
+}
+.title2{
+    background-color: rgb(134, 202, 134);
+}
+.hi{
+    color:red
+}

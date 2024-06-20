@@ -1,0 +1,546 @@
+body {
+    background-color: black;
+    background-image: url(../img/3.jpg);
+    /* background-repeat:no-repeat; */
+    /* background-attachment: fixed; */
+    background-size: 100%;
+    width: 100%;
+    backdrop-filter: blur(30px);
+}
+
+
+/*header*/
+
+.header-items {
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.items-left {
+    position: relative;
+    display: inline-block;
+}
+
+.items-left img {
+    display: inline-block;
+    margin-right: 200px;
+}
+
+#logo-header {
+    height: 112px;
+    width: 112px;
+}
+
+.items-right {
+    position: absolute;
+    display: inline-block;
+}
+
+.items-right ul {
+    margin-left: -115px;
+    margin-top: 52px;
+}
+
+.items-right li {
+    display: inline-block;
+    font-family: roboto;
+    margin-left: 80px;
+    /*margin-top: 52px;*/
+}
+
+.items-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.items-right a:hover {
+    color: #B162FF;
+}
+
+#personal-right {
+    position: absolute;
+    margin-top: -25px;
+    height: 34px;
+    width: 34px;
+}
+
+
+/*content*/
+
+.container-content {
+    color: white;
+    margin-top: -25px;
+}
+
+.brandname {
+    text-align: center;
+    position: relative;
+}
+
+.brandname h1 {
+    margin-top: 80px;
+    font-size: 100px;
+    font-family: roboto;
+    font-weight: 800;
+}
+
+.brandname p {
+    font-size: 50px;
+    font-family: roboto;
+    margin-top: 20px;
+}
+
+#small-brandname {
+    color: #B162FF;
+}
+
+.button {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+
+.button a {
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.button #btn1 {
+    display: inline-block;
+    background: linear-gradient(190deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(179, 217, 249, 1) 70%);
+    width: 265px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.button #btn2 {
+    display: inline-block;
+    color: white;
+    width: 100px;
+    height: 54px;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+#btn1,
+#btn2 {
+    position: relative;
+    margin-right: 50px;
+}
+
+#btn2:hover {
+    height: 56px;
+    width: 106px;
+    background-color: #B162FF;
+    border: none;
+}
+
+#test {
+    margin-top: 20px;
+    color: black;
+}
+
+#test a {
+    color: black;
+}
+
+#test2 {
+    margin-top: 17px;
+}
+
+#test2 a {
+    color: white;
+}
+
+#trending-tag {
+    display: block;
+    margin-left: 80px;
+}
+
+#trending-tag p {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: roboto;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#view-more {
+    font-size: small;
+    opacity: 0.5;
+}
+
+#view-more a {
+    text-decoration: none;
+    font-family: roboto;
+    color: white;
+    font-size: 13px;
+}
+
+#more-infomation {
+    margin-top: 30px;
+}
+
+#more-infomation p {
+    position: relative;
+    display: inline-block;
+    margin-left: 150px;
+    font-family: roboto;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#more-infomation div {
+    margin-left: 180px;
+    height: 7px;
+    width: 1000px;
+    background-color: white;
+}
+
+
+/* product */
+
+.main-items {
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.container-items {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.item1 {
+    display: inline-block;
+    height: 260px;
+    width: 220px;
+    /* background-color: white; */
+}
+
+.item1:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.container-items img {
+    position: relative;
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.properties {
+    position: absolute;
+    margin-top: 193px;
+    background-color: #03060F;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 68px;
+    width: 220px;
+    color: white;
+    z-index: 1;
+}
+
+.properties p {
+    display: inline-block;
+    font-family: roboto;
+    font-size: 30px;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+#ethcoin {
+    height: 15px;
+    width: 12px;
+    margin-left: 3px;
+}
+
+#price-item {
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 27px;
+}
+
+#timeless {
+    position: absolute;
+    border-radius: 0px;
+    width: 26px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 175px;
+    z-index: 1;
+}
+
+#timeless:before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    z-index: 1;
+}
+
+#btn4 a {
+    color: #03060F;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#btn4 {
+    position: relative;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #03060F;
+    margin-left: 495px;
+    margin-top: 50px;
+}
+
+#btn4 div {
+    position: relative;
+    margin-top: 12px;
+}
+
+#btn4 a:hover {
+    color: white;
+}
+
+#btn4:hover {
+    border-color: white;
+}
+
+
+/* home-feature */
+
+.home-feature {
+    position: relative;
+}
+
+.container-feature {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.feature-item {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    height: 250px;
+    width: 237.5px;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.feature-item:first-child {
+    width: 498px;
+}
+
+.feature-item-inside {
+    margin-left: 10px;
+    position: absolute;
+}
+
+.feature-item-inside p {
+    font-family: roboto;
+}
+
+#feature-title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.info {
+    position: relative;
+    background-color: #03060F;
+    padding-top: 2px;
+    padding-bottom: 100px;
+}
+
+.NFTlagi {
+    position: relative;
+    margin: 50px 250px 250px 200px;
+}
+
+.NFTlagi-content {
+    position: relative;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: 30px;
+}
+
+.NFThoatdong {
+    position: relative;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: 30px;
+}
+
+.NFThoatdong-content {
+    margin-right: 150px;
+}
+
+#title {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#title2 {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: right;
+}
+
+#title-content {
+    position: absolute;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+#title2-content {
+    margin-top: 20px;
+    line-height: 25px;
+    text-align: right;
+}
+
+#picnftlagi {
+    position: absolute;
+    margin: -50px 0px 0px 735px;
+    transform: scale(1.5);
+}
+
+#picnftlagi:hover {
+    transform: scale(1.7);
+}
+
+#picnftwork {
+    position: absolute;
+    width: 10%;
+    margin: -120px 0px 0px 270px;
+    transform: scale(1.5);
+}
+
+#picnftwork:hover {
+    transform: scale(1.7);
+}
+
+.gradient-info {
+    position: relative;
+    margin: 150px 150px 150px 150px;
+    width: 750px;
+    height: 330px;
+    border-radius: 20px;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(270deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.gradient-info center {
+    position: absolute;
+    margin: 15px 0px 0px 105px;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.gradient-info p {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-container {
+    position: relative;
+    /* margin-top: 200px; */
+    width: 100%;
+    height: 100px;
+    background-color: #03060F;
+    font-family: roboto;
+    color: white;
+}
+
+.footer-items-left {
+    position: absolute;
+    display: inline-block;
+    margin: 0px 0px 0px 150px;
+}
+
+.footer-items-left img {
+    display: inline-block;
+    position: relative;
+    ;
+    height: 50px;
+    width: 50px;
+}
+
+.footer-items-left p {
+    position: absolute;
+    display: inline-block;
+    margin-top: 13px;
+    margin-right: 2px;
+}
+
+#copyright {
+    position: absolute;
+    margin: 20px 0px 0px 465px;
+}
+
+.footer-items-right {
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+    margin: 20px 0px 0px 1000px;
+}
+
+.footer-items-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+.footer-items-right a:hover {
+    color: #B162FF;
+}
+
+
+/* .footer-items-right p{
+	position: absolute;
+	margin-top: 20px;
+} */
+
+.tag-footer {
+    text-align: center;
+}
+
+.social-icon {
+    margin: 50px 0px 0px 470px;
+    position: absolute;
+}
+
+.social-icon img {
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+}
+
+.social-icon a {
+    text-decoration: none;
+}
+
+hr {
+    margin: 0px;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}

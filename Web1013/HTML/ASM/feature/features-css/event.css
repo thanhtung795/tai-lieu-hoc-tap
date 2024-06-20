@@ -1,0 +1,19 @@
+.container-header{
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #03060F;
+}
+.container-banner{
+    background-image: url(../img/banner.jpeg);
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 510px;
+}
+
+.container-banner center{
+    padding-top: 150px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai2</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <form action="">
+        <div class="form-gruop">
+            <label for="">
+                Họ và tên: <br>
+            </label>
+            <input type="text" class="control" tabindex="1">
+        </div> 
+        <div class="form-gruop">
+            <label for="">
+                Giới tính <br>
+            </label>
+            <div class="control">
+                <input type="radio">Nam
+            <input type="radio">Nữ
+            <input type="radio">Khác
+            </div>
+        </div>
+        <div class="form-gruop">
+            <label for="">
+                Ngày sinh: <br>
+            </label>
+            <input type="date" class="control">
+        </div>
+        <div class="form-gruop">
+            <label for="">
+                Điểm: <br>
+            </label>
+            <input type="number" min="0" max="10" step="0.25" class="control">
+        </div>
+        <div class="form-gruop">
+            <label for="">
+                nghề nghiệp: <br>
+            </label>
+            <input type="list" list="die" class="control">
+                <datalist>
+                    <option value=" software development"></option>
+                    <option value=" software Apliducation"></option>
+                    <option value=" software development"></option>
+                </datalist>
+        </div>
+        <div class="form-gruop">
+            <label for="">
+                Sở thích: <br>
+            </label>
+                <div class="control">
+                    <input type="checkbox"> Du lịch
+                <input type="checkbox"> Lập trình
+                <input type="checkbox"> Ăn uống
+                <input type="checkbox"> Ngủ
+                </div>
+            <div class="form-gruop">
+                <label for="">Ghi chú: <br></label>
+                <input type="text" class="control">
+            </div>
+        </div>
+        <div class="form-gruop">
+       <div class="form-button">
+        <button class="form-button" tabindex="3">đăng ký</button>
+        <button class="form-button" tabindex="4">Nhập lại</button>
+       </div>
+        </div>
+    </form>
+</body>
+</html>

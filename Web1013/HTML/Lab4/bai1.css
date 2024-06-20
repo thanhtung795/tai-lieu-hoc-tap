@@ -1,0 +1,32 @@
+em {
+    font-variant: small-caps;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+em.d1 {
+    color: red;
+}
+
+em.d2 {
+    color: blue
+}
+
+em.d3 {
+    color: green;
+}
+
+strong {
+    color: blueviolet;
+}
+
+h2 {
+    color: white;
+    text-shadow: 0 0 5px red;
+}
+
+body {
+    Text-align: center;
+}

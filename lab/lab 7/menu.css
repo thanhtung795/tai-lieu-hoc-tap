@@ -1,0 +1,25 @@
+.vmenu {
+    width: 300px;
+    text-align: center;
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px gray;
+}
+.vmenu a{
+    background: url(img/bullets_check_tick_red_animation_clipart.gif) no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url(img/bullets_at_symbols_orange_animation_clipart.gif) no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: yellow;
+    color: white;
+    font-weight: bold;
+}

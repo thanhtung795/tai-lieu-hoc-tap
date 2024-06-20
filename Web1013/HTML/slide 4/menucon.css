@@ -1,0 +1,27 @@
+.sub-menu {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style: none;
+    width: 150px;
+    position: absolute;
+    display: none;
+}
+
+.sub-menu>li>a {
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    background: beige;
+    color: orangered;
+}
+
+.sub-menu>li>a:hover {
+    background: beige;
+    color: red;
+    font-weight: bolder;
+}

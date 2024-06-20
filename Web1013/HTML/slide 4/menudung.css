@@ -1,0 +1,24 @@
+ul.vmenu {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style: none;
+}
+
+ul.vmenu>li>a {
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: orangered;
+    padding-left: 25px;
+    background: url('b1.gif') no-repeat left center;
+}
+
+ul.vmenu>li>a:hover {
+    background: url('b2.gif') no-repeat left center;
+    font-weight: bolder;
+    color: red;
+}

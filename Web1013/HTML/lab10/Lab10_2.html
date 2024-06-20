@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lam Phu Hao PS27778</title>
+    <link rel="stylesheet" href="Lab10.css">
+</head>
+<body>
+    <h1>Thông tin</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="">Họ và tên:</label><br/>
+            <input type="text"class="form-control">
+        </div>
+
+        <div class="form-group">
+            <fieldset>
+                <label for="">Giới tính:</label><br>
+                <input type="radio">Nam
+                <input type="radio">Nữ
+            </fieldset> 
+        </div>
+
+        <div>
+            <label for="">Ngày sinh:</label><br>
+            <input type="date">
+        </div>
+
+        <div class="form-group">
+            <label for="">Điểm:</label><br/>
+            <input type="number"class="form-control" min="0" max="10" step="0,25">
+        </div>
+
+        <div class="form-group">
+            <label for="">Nghề nghiệp:</label><br/>
+            <input type="list"class="form-control">
+                <datalist>
+                    <option value="">Kế toán</option>
+                    <option value="">Nhân sự</option>
+                    <option value="">Trưởng phòng</option>
+                </datalist>
+        </div>
+        
+        <div class="form-group">
+            <fieldset>
+                <label for="">Sở thích:</label><br>
+                <input type="checkbox">Thể thao
+                <input type="checkbox">Du lịch
+                <input type="checkbox">Âm nhạc
+                <input type="checkbox">Ẩm thực
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <label for="">Ghi chú:</label><br/>
+            <textarea name="" id="" cols="40" rows="5" tabindex="2"></textarea>
+        </div>
+        
+        <div class="form-group">
+            <button>Đăng ký</button>
+            <button>Nhập lại</button>
+        </div>
+    </form>
+</body>
+</html>

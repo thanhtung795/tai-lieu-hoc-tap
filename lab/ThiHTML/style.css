@@ -1,0 +1,152 @@
+body {
+    margin: 0 0;
+    position: relative;
+}
+.menu a:hover{
+    color: orange;
+}
+
+.menu {
+    position: fixed;
+    height: 20px;
+    background-color: gold;
+    text-align: center;
+    border: 1px 0 solid;
+    padding: 20px;
+    z-index: 999;
+    width: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.benner>img {
+    width: 100%;
+}
+
+.benner {
+    position: relative;
+}
+
+.TV {
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    width: 250px;
+    top: 10%;
+    left: 10%;
+    z-index: 998;
+    text-align: center;
+}
+
+.TV>p {
+    color: white;
+    font-size: 30px
+}
+
+.box {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 400px;
+    background-color: white;
+    height: 500px;
+    text-align: center;
+}
+
+.tenho input {
+    height: 40px;
+    width: 300px;
+    background-color: antiquewhite;
+    margin-top: 100px;
+}
+
+.email input {
+    height: 40px;
+    width: 300px;
+    background-color: antiquewhite;
+}
+
+.loinhan input {
+    width: 300px;
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+.nut button {
+    background-color: greenyellow;
+    margin-top: 40px;
+    width: 300px;
+    height: 30px;
+    color: white;
+    font-size: larger;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.yeuthucung p{
+    position: absolute;
+    height: 150px;
+    top: 20%;
+    right: 200px;
+    color: white;
+    font-size: 40px;
+}
+.chamsoc{
+    position: absolute;
+    height: 150px;
+    top: 30%;
+    right: 200px;
+    color: white;
+    font-size: 40px;
+}
+.vichung{
+    position: absolute;
+    height: 150px;
+    top: 40%;
+    right: 260px;
+    color: white;
+    font-size: 20px;
+}
+.xemthem{
+    text-align: center;
+    border: 1px solid; 
+    width: 20%;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 56%;
+    right: 260px;
+}
+.chungtoi{
+    text-align: center;
+    font-size: 40px;
+}
+.chungtoinoidung{
+    text-align: center;
+    font-size: 20px;
+}
+.boxhinh {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.boxhinh .hinh{
+    width: 33.33%;
+    float: left;
+    border: 1px;
+    border-radius: 40px;
+    transition: ease 2s ease-in-out 2;
+}
+.hinh img{
+    height: 300px;
+}
+.hinh >img:hover{
+    transform: scale(1.5);
+}

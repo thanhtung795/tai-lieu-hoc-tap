@@ -1,0 +1,35 @@
+.form-gruop{
+    margin: 10px 0px;
+
+}
+.control{
+    width: 98%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.form-gruop label{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+.control:focus{
+    background-color: yellow;
+    box-shadow: 0 0 3px;
+    border: 1px solid yellow;
+}
+.form-button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+    box-sizing: 0 0 20px blue;
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: 0 0 20px gray;
+    
+}

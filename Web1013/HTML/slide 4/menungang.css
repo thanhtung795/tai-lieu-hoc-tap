@@ -1,0 +1,33 @@
+.hmenu {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style: none;
+    background-color: orangered;
+    height: 40px;
+}
+
+ul.hmenu>li>a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left: 25px;
+    color: white;
+}
+
+ul.hmenu>li>a:hover {
+    color: yellow;
+    font-weight: bolder;
+}
+
+ul.hmenu>li {
+    float: left;
+    margin: 0 5px;
+    position: relative;
+}
+
+ul.hmenu>li:hover>.sub-menu {
+    display: block;
+}

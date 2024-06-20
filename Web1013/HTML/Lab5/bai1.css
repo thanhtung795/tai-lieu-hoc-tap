@@ -1,0 +1,14 @@
+p>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: yellow;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 5px 5px rgb(54, 54, 149);
+}
+p>img:hover{
+    box-shadow: 5px 20px red;
+    background-color: aqua;
+}
